@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="nav-index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-div">
+          <div id="link">
+              <a href="blog-1.html">Blog</a>
+              <a href="tabel.html">Table</a>
+              <a href="form.html">Form</a>
+          </div>
+          <div id="btn">
+              <button id="Sign-up">Sign up</button>
+              <Button id="Login">Login Out</Button>
+          </div>
+      </div>
+  </nav>
+  </header>
+    <main>
+        <div id="form">
+            <form>
+              <div class="block">
+              <Label for="full-name">
+                Full Name:
+                <input type="text" id="full-name">
+              </Label>
+              <Label for="email">
+                Email:
+                <input type="email" id="email">
+              </Label>
+              <Label for="Password">
+                Password:
+                <input type="password" id="Password">
+              </Label>
+              <Label for="Phone">
+                Phone:
+                <input type="tel" id="phone">
+              </Label>
+            </div>
+              <fieldset>
+                <legend>Address</legend>
+                <label for="country">Country:
+                <select id="country">
+                  <option value="Uganda" selected>Uganda</option> 
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="India">India</option>
+                </select>
+              </label>
+                <label for="District">District:
+                <select id="District">
+                  <option value="	Amuria" selected>	Amuria</option> 
+                  <option value="Dhaka">Dhaka</option>
+                  <option value="Lahor">Lahot</option>
+                  <option value="Delhi">Delhi</option>
+                </select>
+              </label>
+                <label for="Location">Location:
+                  <input id="Location" type="text" style="text-align: start;">
+                </label>
+              </fieldset>
+              <fieldset id="item-field">
+                <legend>Please select the item, given below</legend>
+                <label for="vegetables">
+                  <input id="vegetables"  type="checkbox"> Vegetables
+                </label>
+                <label for="food">
+                  <input id="food" type="checkbox"> Foods
+                </label>
+                <label for="fruit">
+                  <input id="fruit" type="checkbox"> Fruits
+                </label>
+                <label for="drink">
+                  <input id="drink" type="checkbox"> Drinks
+                </label>
+                <label for="alcohol">
+                  <input id="alcohol" type="checkbox"> Alcohols
+                </label>
+              </fieldset>
+              <fieldset id="payment">
+                <legend>Type of Payment</legend>
+                 <label for="cash">
+                  <input id="cash" type="radio" name="payment"> Cash on delivery
+                 </label>
+                 <label for="bkash">
+                  <input id="bkash" type="radio" name="payment"> Bkash
+                 </label>
+                 <label for="nogod">
+                  <input id="nogod" type="radio" name="payment"> Nogod
+                 </label>
+                 <label for="rocket">
+                  <input id="rocket" type="radio" name="payment"> Rocket
+                 </label>
+              </fieldset>
+              <div  class="feedback">
+              <label class="feedback-label" for="feedback"> Feedback
+                <textarea id="feedback"></textarea>
+              </label>
+              </div>
+              <div class="thanks">
+                <label for="thanks">
+                  <input id="thanks" type="checkbox"> Give us thanks
+                </label>
+              </div>
+              <div class="btn">
+                <button class="submit" type="submit">Submit</button>
+                <button class="reset" type="reset">Reset</button>
+              </div>
+            </form>
+          </div>
+    </main>
+</body>
+</html>

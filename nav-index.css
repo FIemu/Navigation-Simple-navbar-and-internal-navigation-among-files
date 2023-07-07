@@ -1,0 +1,58 @@
+h1{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    font-weight: bolder;
+    color: #ddd;
+}
+.nav-div{
+    width: 118.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:green;
+    box-shadow: 0px 8px 10px 0px rgba(209, 3, 250, 0.2);
+}
+#link{
+    margin-left:2.5rem ;
+    display: flex;
+    gap: 3rem;
+}
+#link>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#link>a:hover{
+    color: blue;
+}
+#btn{
+    display: flex;
+    flex-direction: end;
+    gap: 1.5rem;
+    margin-right: 2.5rem;
+ 
+}
+#Sign-up{
+    width: 5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: large;
+}
+#Sign-up:hover{
+    background-color: green;
+    color: white;
+}
+#Login{
+    width: 6rem;
+    height: 1.5rem;  
+    text-align: center;
+    font-size: large;
+}
+#Login:hover{
+    background-color: red;
+    color: white;
+}
